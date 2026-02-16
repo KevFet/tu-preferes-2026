@@ -185,21 +185,7 @@ export default function Home() {
             )}
           </AnimatePresence>
 
-          {/* Stats Bar */}
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            className="flex gap-8 text-white/40 text-xs font-medium uppercase tracking-widest"
-          >
-            <div className="flex items-center gap-2">
-              <Users className="w-4 h-4" />
-              <span>Live Players</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Trophy className="w-4 h-4" />
-              <span>Streak: 0</span>
-            </div>
-          </motion.div>
+
         </div>
       </div>
 
