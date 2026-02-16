@@ -189,12 +189,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Footer */}
-      <footer className="w-full text-center py-4 z-20">
-        <p className="text-[10px] text-white/20 font-medium tracking-widest uppercase">
-          Propulsé par Next.js 14 & Supabase Realtime
-        </p>
-      </footer>
+
     </main>
   );
 }
